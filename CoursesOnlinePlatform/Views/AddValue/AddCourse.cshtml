@@ -1,0 +1,16 @@
+﻿@model CoursesOnlinePlatform.Models.Course
+@{
+    ViewData["Title"] = "AddCourse";
+}
+
+<h1>Dodaj Kurs</h1>
+
+<form action="results">
+    Nazwa Kursu<input type="" asp-for="Name"/><br />
+    Cena Kursu<input type="number" asp-for="Price"/><br />
+    Waluta<input type="text" asp-for="Currency"/><br />
+    Język<input type="text" asp-for="Language"/><br />
+    Poziom Kursu<input type="text" asp-for="Level"/><br />
+    Opis<input type="text" asp-for="Description"/><br />
+    <input type="submit" value="Dodaj Kurs"/>
+</form>
