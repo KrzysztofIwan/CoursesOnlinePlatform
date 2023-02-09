@@ -1,8 +1,15 @@
+using CoursesOnlinePlatform.Data.Courses;
+using CoursesOnlinePlatform.Data.Users;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Utworzenie po³¹czenie z baz¹ danych
+builder.Services.AddDbContext<CoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+builder.Services.AddDbContext<UsersContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

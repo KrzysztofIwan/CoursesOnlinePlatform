@@ -1,0 +1,33 @@
+﻿@model IEnumerable<CoursesOnlinePlatform.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Lista Użytkownikow</h2>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+            <tr>
+                <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edycja</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Otworz</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a> 
+                </td>
+            </tr>
+    }
+</table>
+
