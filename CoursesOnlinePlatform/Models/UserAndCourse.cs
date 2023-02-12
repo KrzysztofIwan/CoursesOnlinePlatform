@@ -8,9 +8,9 @@ namespace CoursesOnlinePlatform.Models
 {
     public class UserAndCourse
     {
-        [Key]//[Column(Order = 0)]
+        [Key]
+        public int Id { get; set; }
         public int User_Id { get; set; }
-        //[Key][Column(Order = 1)]
         public int Course_Id { get; set; }
 
 

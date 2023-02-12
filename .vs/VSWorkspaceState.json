@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CoursesOnlinePlatform",
+    "\\CoursesOnlinePlatform\\Models"
   ],
-  "SelectedNode": "\\CoursesOnlinePlatform.sln",
   "PreviewInSolutionExplorer": false
 }

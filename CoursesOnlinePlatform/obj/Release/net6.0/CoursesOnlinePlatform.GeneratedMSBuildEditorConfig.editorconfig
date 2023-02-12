@@ -9,145 +9,145 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoursesOnlinePlatform
 build_property.RootNamespace = CoursesOnlinePlatform
-build_property.ProjectDir = C:\Users\User\source\repos\KrzysztofIwan\CoursesOnlinePlatform\CoursesOnlinePlatform\
+build_property.ProjectDir = E:\C#\CoursesOnlinePlatform\CoursesOnlinePlatform\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\KrzysztofIwan\CoursesOnlinePlatform\CoursesOnlinePlatform
+build_property.MSBuildProjectDirectory = E:\C#\CoursesOnlinePlatform\CoursesOnlinePlatform
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AddValue/AddCourse.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AddValue/AddCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVmFsdWVcQWRkQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AddValue/AddLanguage.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AddValue/AddLanguage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVmFsdWVcQWRkTGFuZ3VhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AddValue/AddUser.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AddValue/AddUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVmFsdWVcQWRkVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Create.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Delete.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Details.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Edit.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Index.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Home/Index.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Home/Privacy.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Create.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Delete.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Details.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Edit.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Index.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Languages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Shared/Error.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UserAndCourse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFuZENvdXJzZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Create.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Delete.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Details.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Edit.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Index.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Create.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Delete.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Details.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Edit.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Index.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/_ViewImports.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/_ViewStart.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KrzysztofIwan/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Shared/_Layout.cshtml]
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rh3eh0128m

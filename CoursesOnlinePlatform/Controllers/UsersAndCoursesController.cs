@@ -34,7 +34,7 @@ namespace CoursesOnlinePlatform.Controllers
             }
 
             var userAndCourse = await _context.UsersAndCourses
-                .FirstOrDefaultAsync(m => m.User_Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (userAndCourse == null)
             {
                 return NotFound();
@@ -88,7 +88,7 @@ namespace CoursesOnlinePlatform.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("User_Id,Course_Id")] UserAndCourse userAndCourse)
         {
-            if (id != userAndCourse.User_Id)
+            if (id != userAndCourse.Id)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace CoursesOnlinePlatform.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UserAndCourseExists(userAndCourse.User_Id))
+                    if (!UserAndCourseExists(userAndCourse.Id))
                     {
                         return NotFound();
                     }
@@ -125,7 +125,7 @@ namespace CoursesOnlinePlatform.Controllers
             }
 
             var userAndCourse = await _context.UsersAndCourses
-                .FirstOrDefaultAsync(m => m.User_Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (userAndCourse == null)
             {
                 return NotFound();
@@ -155,7 +155,7 @@ namespace CoursesOnlinePlatform.Controllers
 
         private bool UserAndCourseExists(int id)
         {
-          return _context.UsersAndCourses.Any(e => e.User_Id == id);
+          return _context.UsersAndCourses.Any(e => e.Id == id);
         }
     }
 }
