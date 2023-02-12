@@ -3,14 +3,21 @@ using CoursesOnlinePlatform.Data.Users;
 using CoursesOnlinePlatform.Data.Languages;
 using CoursesOnlinePlatform.Data.UsersAndCourses;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using CoursesOnlinePlatform.Data;
+using CoursesOnlinePlatform.Areas.Identity.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Utworzenie po³¹czenie z baz¹ danych
+// Utworzenie poï¿½ï¿½czenie z bazï¿½ danych
 builder.Services.AddDbContext<CoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+
+builder.Services.AddDefaultIdentity<CoursesOnlinePlatformUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<CoursesOnlinePlatformDBContext>();
 builder.Services.AddDbContext<UsersContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<LanguagesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<UsersAndCoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
@@ -28,6 +35,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();;
 
 app.UseAuthorization();
 

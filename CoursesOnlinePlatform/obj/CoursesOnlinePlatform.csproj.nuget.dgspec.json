@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\KrzysztofIwan\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj": {}
   },
   "projects": {
-    "E:\\C#\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\KrzysztofIwan\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\KrzysztofIwan\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj",
         "projectName": "CoursesOnlinePlatform",
-        "projectPath": "E:\\C#\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj",
-        "packagesPath": "C:\\Users\\krzyc\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\KrzysztofIwan\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\CoursesOnlinePlatform.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\KrzysztofIwan\\CoursesOnlinePlatform\\CoursesOnlinePlatform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\krzyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,17 +44,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
