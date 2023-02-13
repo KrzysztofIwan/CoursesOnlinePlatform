@@ -13,11 +13,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Utworzenie po��czenie z baz� danych
-builder.Services.AddDbContext<CoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
-
 builder.Services.AddDefaultIdentity<CoursesOnlinePlatformUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<CoursesOnlinePlatformDBContext>();
+
+builder.Services.AddDbContext<CoursesOnlinePlatformDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+builder.Services.AddDbContext<CoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<UsersContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<LanguagesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<UsersAndCoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
@@ -42,5 +42,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
