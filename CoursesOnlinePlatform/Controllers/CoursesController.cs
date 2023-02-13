@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CoursesOnlinePlatform.Data.Courses;
 using CoursesOnlinePlatform.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoursesOnlinePlatform.Controllers
 {
+    [Authorize]
     public class CoursesController : Controller
     {
         private readonly CoursesContext _context;
@@ -20,12 +22,14 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: Courses
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Courses.ToListAsync());
         }
 
         // GET: Courses/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Courses == null)

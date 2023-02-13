@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CoursesOnlinePlatform.Data.UsersAndCourses;
 using CoursesOnlinePlatform.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoursesOnlinePlatform.Controllers
 {
+    [Authorize]
     public class UsersAndCoursesController : Controller
     {
         private readonly UsersAndCoursesContext _context;

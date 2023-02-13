@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CoursesOnlinePlatform.Data.Languages;
 using CoursesOnlinePlatform.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoursesOnlinePlatform.Controllers
 {
+    [Authorize]
     public class LanguagesController : Controller
     {
         private readonly LanguagesContext _context;

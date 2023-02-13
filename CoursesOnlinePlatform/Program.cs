@@ -16,7 +16,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDefaultIdentity<CoursesOnlinePlatformUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<CoursesOnlinePlatformDBContext>();
 
-builder.Services.AddDbContext<CoursesOnlinePlatformDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+builder.Services.AddDbContext<CoursesOnlinePlatformDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConntection")));
+
 builder.Services.AddDbContext<CoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<UsersContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<LanguagesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
@@ -34,7 +35,9 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+
 app.UseRouting();
+
 app.UseAuthentication();;
 
 app.UseAuthorization();
