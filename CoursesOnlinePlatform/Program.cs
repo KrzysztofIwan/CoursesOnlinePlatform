@@ -14,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDefaultIdentity<CoursesOnlinePlatformUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<CoursesOnlinePlatformDBContext>();
 
 builder.Services.AddDbContext<CoursesOnlinePlatformDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConntection")));

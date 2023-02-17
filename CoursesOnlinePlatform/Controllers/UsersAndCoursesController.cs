@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CoursesOnlinePlatform.Controllers
 {
-    [Authorize]
     public class UsersAndCoursesController : Controller
     {
         private readonly UsersAndCoursesContext _context;
@@ -28,6 +27,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: UserAndCourses/Details/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.UsersAndCourses == null)
@@ -46,6 +46,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: UserAndCourses/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -56,6 +57,7 @@ namespace CoursesOnlinePlatform.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("User_Id,Course_Id")] UserAndCourse userAndCourse)
         {
             if (ModelState.IsValid)
@@ -68,6 +70,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: UserAndCourses/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.UsersAndCourses == null)
@@ -88,6 +91,7 @@ namespace CoursesOnlinePlatform.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("User_Id,Course_Id")] UserAndCourse userAndCourse)
         {
             if (id != userAndCourse.Id)
@@ -119,6 +123,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: UserAndCourses/Delete/5
+        [Authorize(Roles = "ADmin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.UsersAndCourses == null)
@@ -139,6 +144,7 @@ namespace CoursesOnlinePlatform.Controllers
         // POST: UserAndCourses/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.UsersAndCourses == null)

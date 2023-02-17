@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CoursesOnlinePlatform.Controllers
 {
-    [Authorize]
     public class CoursesController : Controller
     {
         private readonly CoursesContext _context;
@@ -48,6 +47,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: Courses/Create
+        [Authorize(Roles ="Admin")]
         public IActionResult Create()
         {
             return View();
@@ -58,6 +58,7 @@ namespace CoursesOnlinePlatform.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("Id,Name,Price,Currency,Language,Level,Description")] Course course)
         {
             if (ModelState.IsValid)
@@ -70,6 +71,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: Courses/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Courses == null)
@@ -90,6 +92,7 @@ namespace CoursesOnlinePlatform.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Price,Currency,Language,Level,Description")] Course course)
         {
             if (id != course.Id)
@@ -121,6 +124,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: Courses/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Courses == null)
@@ -141,6 +145,7 @@ namespace CoursesOnlinePlatform.Controllers
         // POST: Courses/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Courses == null)

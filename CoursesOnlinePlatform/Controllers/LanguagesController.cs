@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CoursesOnlinePlatform.Controllers
 {
-    [Authorize]
     public class LanguagesController : Controller
     {
         private readonly LanguagesContext _context;
@@ -22,6 +21,7 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: Languages
+        [Authorize]
         public async Task<IActionResult> Index()
         {
               return View(await _context.Languages.ToListAsync());
