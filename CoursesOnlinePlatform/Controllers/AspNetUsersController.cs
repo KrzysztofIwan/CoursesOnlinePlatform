@@ -5,18 +5,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using CoursesOnlinePlatform.Data.Users;
 using CoursesOnlinePlatform.Models;
 using Microsoft.AspNetCore.Authorization;
+using CoursesOnlinePlatform.Data.AspNetUsersContext;
 
 namespace CoursesOnlinePlatform.Controllers
 {
     [Authorize]
-    public class UsersController : Controller
+    public class AspNetUsersController : Controller
     {
-        private readonly UsersContext _context;
+        private readonly AspNetUsersContext _context;
 
-        public UsersController(UsersContext context)
+        public AspNetUsersController(AspNetUsersContext context)
         {
             _context = context;
         }
@@ -24,25 +24,25 @@ namespace CoursesOnlinePlatform.Controllers
         // GET: Users
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Users.ToListAsync());
+              return View(await _context.AspNetUsers.ToListAsync());
         }
 
         // GET: Users/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string? id)
         {
-            if (id == null || _context.Users == null)
+            if (string.IsNullOrEmpty(id) || _context.AspNetUsers == null)
             {
                 return NotFound();
             }
 
-            var user = await _context.Users
+            var aspnetuser = await _context.AspNetUsers
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (user == null)
+            if (aspnetuser == null)
             {
                 return NotFound();
             }
 
-            return View(user);
+            return View(aspnetuser);
         }
 
         // GET: Users/Create
@@ -56,26 +56,26 @@ namespace CoursesOnlinePlatform.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Email,Password,DateOfBirth,Access")] User user)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,UserName,NormalizedUserName,Email,NormalizedEmail,EmailConfirmed,PasswordHash,SecurityStamp,ConcurrencyStamp,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEnabled,AccessFailedCount")] AspNetUser aspnetuser)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(user);
+                _context.Add(aspnetuser);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(user);
+            return View(aspnetuser);
         }
 
         // GET: Users/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string? id)
         {
-            if (id == null || _context.Users == null)
+            if (string.IsNullOrEmpty(id) || _context.AspNetUsers == null)
             {
                 return NotFound();
             }
 
-            var user = await _context.Users.FindAsync(id);
+            var user = await _context.AspNetUsers.FindAsync(id);
             if (user == null)
             {
                 return NotFound();
@@ -88,7 +88,7 @@ namespace CoursesOnlinePlatform.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Email,Password,DateOfBirth,Access")] User user)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,FirstName,LastName,UserName,NormalizedUserName,Email,NormalizedEmail,EmailConfirmed,PasswordHash,SecurityStamp,ConcurrencyStamp,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEnabled,AccessFailedCount")] AspNetUser user)
         {
             if (id != user.Id)
             {
@@ -119,14 +119,14 @@ namespace CoursesOnlinePlatform.Controllers
         }
 
         // GET: Users/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string? id)
         {
-            if (id == null || _context.Users == null)
+            if (string.IsNullOrEmpty(id) || _context.AspNetUsers == null)
             {
                 return NotFound();
             }
 
-            var user = await _context.Users
+            var user = await _context.AspNetUsers
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -139,25 +139,25 @@ namespace CoursesOnlinePlatform.Controllers
         // POST: Users/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            if (_context.Users == null)
+            if (_context.AspNetUsers == null)
             {
-                return Problem("Entity set 'UsersContext.Users'  is null.");
+                return Problem("Entity set 'AspNetUsersContext.AspNetUsers'  is null.");
             }
-            var user = await _context.Users.FindAsync(id);
+            var user = await _context.AspNetUsers.FindAsync(id);
             if (user != null)
             {
-                _context.Users.Remove(user);
+                _context.AspNetUsers.Remove(user);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool UserExists(int id)
+        private bool UserExists(string id)
         {
-          return _context.Users.Any(e => e.Id == id);
+          return _context.AspNetUsers.Any(e => e.Id == id);
         }
     }
 }

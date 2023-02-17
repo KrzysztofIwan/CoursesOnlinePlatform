@@ -56,6 +56,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVmFsdWVcQWRkVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AspNetUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AspNetUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AspNetUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AspNetUsers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AspNetUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/AspNetUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Courses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -124,10 +148,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -150,26 +170,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/UsersAndCourses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBbmRDb3Vyc2VzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/Users/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/C\#/CoursesOnlinePlatform/CoursesOnlinePlatform/Views/_ViewImports.cshtml]

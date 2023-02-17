@@ -1,12 +1,11 @@
 using CoursesOnlinePlatform.Data.Courses;
-using CoursesOnlinePlatform.Data.Users;
 using CoursesOnlinePlatform.Data.Languages;
 using CoursesOnlinePlatform.Data.UsersAndCourses;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using CoursesOnlinePlatform.Data;
 using CoursesOnlinePlatform.Areas.Identity.Data;
-
+using CoursesOnlinePlatform.Data.AspNetUsersContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +19,7 @@ builder.Services.AddDefaultIdentity<CoursesOnlinePlatformUser>(options => option
 builder.Services.AddDbContext<CoursesOnlinePlatformDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConntection")));
 
 builder.Services.AddDbContext<CoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
-builder.Services.AddDbContext<UsersContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+builder.Services.AddDbContext<AspNetUsersContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<LanguagesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddDbContext<UsersAndCoursesContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 var app = builder.Build();
