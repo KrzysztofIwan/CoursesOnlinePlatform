@@ -229,6 +229,16 @@ INSERT INTO [dbo].[Languages]
      VALUES
            ('English')
 GO
+INSERT INTO [dbo].[Languages]
+           ([Name])
+     VALUES
+           ('German')
+GO
+INSERT INTO [dbo].[Languages]
+           ([Name])
+     VALUES
+           ('Dutch')
+GO
 
 INSERT INTO [dbo].[Courses]
            ([Name]
@@ -260,3 +270,260 @@ INSERT INTO [dbo].[Courses]
            ,'10'
            ,'Advanced learning of the Turkish language')
 GO
+INSERT INTO [dbo].[Courses]
+           ([Name]
+           ,[Price]
+           ,[Currency]
+           ,[Language]
+           ,[Level]
+           ,[Description])
+     VALUES
+           ('Javascript course'
+           ,'100'
+           ,'EUR'
+           ,'German'
+           ,'8'
+           ,'Mid-Advanced course about Javascript')
+GO
+INSERT INTO [dbo].[Courses]
+           ([Name]
+           ,[Price]
+           ,[Currency]
+           ,[Language]
+           ,[Level]
+           ,[Description])
+     VALUES
+           ('Cooking Course'
+           ,'250'
+           ,'EUR'
+           ,'Dutch'
+           ,'5'
+           ,'Semi-Advanced learning of cooking')
+GO
+GO
+
+INSERT INTO [dbo].[AspNetUsers]
+           ([Id]
+           ,[FirstName]
+           ,[LastName]
+           ,[UserName]
+           ,[NormalizedUserName]
+           ,[Email]
+           ,[NormalizedEmail]
+           ,[EmailConfirmed]
+           ,[PasswordHash]
+           ,[SecurityStamp]
+           ,[ConcurrencyStamp]
+           ,[PhoneNumber]
+           ,[PhoneNumberConfirmed]
+           ,[TwoFactorEnabled]
+           ,[LockoutEnd]
+           ,[LockoutEnabled]
+           ,[AccessFailedCount])
+     VALUES
+           ('b5faf9f4-ff85-42fd-86b6-e9a1fdcb559d'
+	   ,'Mateusz'
+	   ,'Jaro'
+	   ,'Mateusz@Jaro.pl'
+	   ,'MATEUSZ@JARO.PL'
+	   ,'Mateusz@Jaro.pl'
+	   ,'MATEUSZ@JARO.PL'
+	   ,'True'
+	   ,'AQAAAAEAACcQAAAAECO0rP1cGuSzwXdCi5bpmp2Af0jP1VW6xbciyr76BylMo0B89RdCdH0TTCHla+mNfQ=='
+	   ,'A27J7XJWL6EU3S35EPQKONR5MZBAZQKA'
+	   ,'df43a944-55c0-4782-8340-d58cadb89d56'
+	   ,'787787737'
+	   ,'False'
+	   ,'False'
+	   ,'2023-02-17 13:45:30.1234567 -05:00'
+	   ,'True'
+	   ,'0')
+GO
+INSERT INTO [dbo].[AspNetUsers]
+           ([Id]
+           ,[FirstName]
+           ,[LastName]
+           ,[UserName]
+           ,[NormalizedUserName]
+           ,[Email]
+           ,[NormalizedEmail]
+           ,[EmailConfirmed]
+           ,[PasswordHash]
+           ,[SecurityStamp]
+           ,[ConcurrencyStamp]
+           ,[PhoneNumber]
+           ,[PhoneNumberConfirmed]
+           ,[TwoFactorEnabled]
+           ,[LockoutEnd]
+           ,[LockoutEnabled]
+           ,[AccessFailedCount])
+     VALUES
+           ('b27df8c3-a90d-4520-8e6b-fa05cad16479'
+	   ,'Krzysztof'
+	   ,'Iwan'
+	   ,'Krzysztof@Iwan.pl'
+	   ,'KRZYSZTOF@IWAN.PL'
+	   ,'Krzysztof@Iwan.pl'
+	   ,'KRZYSZTOF@IWAN.PL'
+	   ,'True'
+	   ,'AQAAAAEAACcQAAAAEE9SzBQdbopcMnKjz3jtXqW13z/mIDaVq8rkPRVpgShtqPJ4BYl+QJ3V9ltu5b8C1Q=='
+	   ,'ZFFYYSMZXD7NAHVHP2OZMWK25AAYU2E7'
+	   ,'a156674c-138e-4dda-98b1-4a82ae27a43b'
+	   ,'787787737'
+	   ,'False'
+	   ,'False'
+	   ,'2023-02-17 13:45:30.1234567 -05:00'
+	   ,'True'
+	   ,'0')	   
+GO
+INSERT INTO [dbo].[AspNetUsers]
+           ([Id]
+           ,[FirstName]
+           ,[LastName]
+           ,[UserName]
+           ,[NormalizedUserName]
+           ,[Email]
+           ,[NormalizedEmail]
+           ,[EmailConfirmed]
+           ,[PasswordHash]
+           ,[SecurityStamp]
+           ,[ConcurrencyStamp]
+           ,[PhoneNumber]
+           ,[PhoneNumberConfirmed]
+           ,[TwoFactorEnabled]
+           ,[LockoutEnd]
+           ,[LockoutEnabled]
+           ,[AccessFailedCount])
+     VALUES
+           ('258e0302-bee0-4afc-ba34-ba934243a383'
+	   ,'Admin'
+	   ,'Admin'
+	   ,'Admin@CoursPlatform.com'
+	   ,'ADMIN@COURSPLATFORM.COM'
+	   ,'Admin@CoursPlatform.com'
+	   ,'ADMIN@COURSPLATFORM.COM'
+	   ,'True'
+	   ,'AQAAAAEAACcQAAAAEHyRWoDiI2g/LEoQn70b28zB64MncJWavLIIIFyAsLlibW7F33Z+eE+PXHdbMCnZ6g=='
+	   ,'SIGNARVNIQHU6HYUY6MLDJUBYPVJEYSJ'
+	   ,'39171983-474f-4a6c-b58b-a50b4fa89f4d'
+	   ,'787787737'
+	   ,'False'
+	   ,'False'
+	   ,'2023-02-17 13:45:30.1234567 -05:00'
+	   ,'True'
+	   ,'0')	   
+GO
+INSERT INTO [dbo].[AspNetUsers]
+           ([Id]
+           ,[FirstName]
+           ,[LastName]
+           ,[UserName]
+           ,[NormalizedUserName]
+           ,[Email]
+           ,[NormalizedEmail]
+           ,[EmailConfirmed]
+           ,[PasswordHash]
+           ,[SecurityStamp]
+           ,[ConcurrencyStamp]
+           ,[PhoneNumber]
+           ,[PhoneNumberConfirmed]
+           ,[TwoFactorEnabled]
+           ,[LockoutEnd]
+           ,[LockoutEnabled]
+           ,[AccessFailedCount])
+     VALUES
+           ('8dc18644-aabe-4f21-bcb8-f09d91043a71'
+	   ,'Admin2'
+	   ,'Admin2'
+	   ,'Admin2@CoursPlatform.com'
+	   ,'ADMIN2@COURSPLATFORM.COM'
+	   ,'Admin2@CoursPlatform.com'
+	   ,'ADMIN2@COURSPLATFORM.COM'
+	   ,'True'
+	   ,'AQAAAAEAACcQAAAAEL52sTl0qHERsiiV6FFC15oG5QQvNmgQU2GI5Ln85hnI/0P4TW66gIxcMZ3gJD4FWg=='
+	   ,'F26YNQCZAU5U7UDAQOC2PWY3AGNZFNEK'
+	   ,'b054d967-58f5-4c67-bd79-a974450c605c'
+	   ,'787787737'
+	   ,'False'
+	   ,'False'
+	   ,'2023-02-17 13:45:30.1234567 -05:00'
+	   ,'True'
+	   ,'0')	   
+GO
+INSERT INTO [dbo].[AspNetRoles]
+           ([Id]
+           ,[Name]
+           ,[NormalizedName]
+           ,[ConcurrencyStamp])
+     VALUES
+           ('1'
+	   ,'Common')
+GO
+INSERT INTO [dbo].[AspNetRoles]
+           ([Id]
+           ,[Name]
+           ,[NormalizedName]
+           ,[ConcurrencyStamp])
+     VALUES
+           ('2'
+	   ,'Admin')
+GO
+
+INSERT INTO [dbo].[AspNetUserRoles]
+           ([UserId]
+           ,[RoleId])
+     VALUES
+           ('258e0302-bee0-4afc-ba34-ba934243a383'
+	   ,'2')
+GO
+
+INSERT INTO [dbo].[AspNetUserRoles]
+           ([UserId]
+           ,[RoleId])
+     VALUES
+     	   ('8dc18644-aabe-4f21-bcb8-f09d91043a71'
+	   ,'2')
+GO
+
+INSERT INTO [dbo].[AspNetUserRoles]
+           ([UserId]
+           ,[RoleId])
+     VALUES
+     	   ('b27df8c3-a90d-4520-8e6b-fa05cad16479'
+	   ,'1')
+GO
+
+INSERT INTO [dbo].[AspNetUserRoles]
+           ([UserId]
+           ,[RoleId])
+     VALUES
+     	   ('b5faf9f4-ff85-42fd-86b6-e9a1fdcb559d'
+	   ,'1')
+GO
+INSERT INTO [dbo].[UsersAndCourses]
+           ([User_Id]
+           ,[Course_Id])
+     VALUES
+           ('b5faf9f4-ff85-42fd-86b6-e9a1fdcb559d'
+	   ,'1')
+GO
+INSERT INTO [dbo].[UsersAndCourses]
+           ([User_Id]
+           ,[Course_Id])
+     VALUES
+           ('b5faf9f4-ff85-42fd-86b6-e9a1fdcb559d'
+	   ,'3')
+GO
+INSERT INTO [dbo].[UsersAndCourses]
+           ([User_Id]
+           ,[Course_Id])
+     VALUES
+           ('b27df8c3-a90d-4520-8e6b-fa05cad16479'
+	   ,'2')
+GO
+INSERT INTO [dbo].[UsersAndCourses]
+           ([User_Id]
+           ,[Course_Id])
+     VALUES
+           ('b27df8c3-a90d-4520-8e6b-fa05cad16479'
+	   ,'4')
