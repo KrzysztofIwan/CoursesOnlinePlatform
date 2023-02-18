@@ -20,8 +20,8 @@ a) Podstawowi użytkownicy:
   - Email : Mateusz@Jaro.pl , Hasło: Pomarancza2334@
   
 b) Administratorzy:
-  - Email : Admin@CoursPlatform.com, Hasło: @dministr@tor
-  - Email : Admin2@CoursPlatform.com, Hasło: Pl@tf0rm@Cours
+  - Email : Admin@CoursPlatform.com, Hasło: zaq1@WSX
+  - Email : Admin2@CoursPlatform.com, Hasło: xsw2!QAZ
    
 
 # Specyfikacja
