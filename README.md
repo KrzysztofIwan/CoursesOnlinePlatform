@@ -42,7 +42,14 @@ Wymagania:
   - Microsoft SQL Server ( na którym znajduje się baza danych )
 
 Struktura Projektu:
-  //TODO
+  - Areas : Folder zawierający obługę Identity
+  - Controllers : Folder zawierający wszystkie kontrolery w projekcie
+  - Data : Folder zawierający Wszystkie contexty wraz z podfolderami z nazwami odnoszącymi się do każdej tabeli w bazie danych
+  - DataBaseScript : Folder zawierający skrypt tworzący i wypełniający danymi bazę danych.
+  - Models : Folder zawierający wszystkie modele w projekcie
+  - Views : Folder zawierający wszystkie widoki wraz z podfolderami z nazwami odnoszącymi się do każdej tabeli w bazie danych
+  - Appsetings.json - plik łaczący projekt z bazą danych
+  
 
 # Konfiguracja
 Aby uruchomić projekt wpier za pomocą skryptu tworzącego bazę danych uruchomić go w SSMS, następnie otworzyć projekt w VisualStudio i w pliku appsetings.json ustawić poprawne połączenie z bazą danych:
