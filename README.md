@@ -48,7 +48,7 @@ Struktura Projektu:
   - DataBaseScript : Folder zawierający skrypt tworzący i wypełniający danymi bazę danych.
   - Models : Folder zawierający wszystkie modele w projekcie
   - Views : Folder zawierający wszystkie widoki wraz z podfolderami z nazwami odnoszącymi się do każdej tabeli w bazie danych
-  - Appsetings.json - plik łaczący projekt z bazą danych
+  - Appsetings.json : plik łaczący projekt z bazą danych
   
 
 # Konfiguracja
