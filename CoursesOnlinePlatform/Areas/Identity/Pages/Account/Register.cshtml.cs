@@ -82,7 +82,8 @@ namespace CoursesOnlinePlatform.Areas.Identity.Pages.Account
 
             [Required]
             [Display(Name = "Phone Number")]
-            [StringLength(255, ErrorMessage = "max 255.")]
+            [StringLength(9, ErrorMessage = "Długość numeru telefonu powinna wynosić 9 cyfr")]
+            //[EnumDataType()]
             public string PhoneNumber { get; set; }
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -91,6 +92,7 @@ namespace CoursesOnlinePlatform.Areas.Identity.Pages.Account
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
+            [RegularExpression(".+\\@.+\\.[a-z]{2,3}")]
             public string Email { get; set; }
 
             /// <summary>
