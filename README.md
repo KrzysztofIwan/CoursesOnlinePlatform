@@ -4,9 +4,9 @@
 
 Jest to projekt ASP.NET MVC który nosi tytuł "Platforma do zarządzania kursami online". 
 
-1. Osoba która nie jest zalogowana ma dostęp do zobaczenia jakie kursy znajdują się na platformie oraz podglądnięcia ich postawowych danych, nie może ich usuwać, kupować i towrzyć nowych. 
+1. Osoba która nie jest zalogowana ma dostęp do zobaczenia jakie kursy znajdują się na platformie oraz podglądnięcia ich postawowych danych, nie może ich usuwać, edytować i towrzyć nowych. 
 
-2. Osoba która jest zalogowana i ma role podstawową (Common) może kupować kursy oraz je przeglądać.
+2. Osoba która jest zalogowana i ma role podstawową (Common) może przeglądać kursy.
 
 3. Osoba która jest zalogowana i ma role administratora (Admin) ma pełen dostęp do wszystkich funkcjonalności czyli:
     - dodawanie
@@ -48,7 +48,7 @@ Struktura Projektu:
   - DataBaseScript : Folder zawierający skrypt tworzący i wypełniający danymi bazę danych.
   - Models : Folder zawierający wszystkie modele w projekcie
   - Views : Folder zawierający wszystkie widoki wraz z podfolderami z nazwami odnoszącymi się do każdej tabeli w bazie danych
-  - Appsetings.json : plik łaczący projekt z bazą danych
+  - Appsetings.json : Plik łaczący projekt z bazą danych
   
 
 # Konfiguracja
@@ -58,6 +58,7 @@ Aby uruchomić projekt wpier za pomocą skryptu tworzącego bazę danych uruchom
 "IdentityConntection": "Server=Twoja_Nazwa_Serwera;Database=Projekt_ASP_NET;Trusted_Connection=True;MultipleActiveResultSets=true"
 
 Na zielono miejsce z skąd można w najprostrzy sposób uzyskać nazwę serwera SQL (okienko połączeniowe w SSMS)
+
 ![image](https://user-images.githubusercontent.com/91775622/219146352-72ae93fd-73dd-4397-94b8-aaed53b52b33.png)
 
 # Wykonawcy
